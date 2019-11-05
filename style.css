@@ -1,0 +1,313 @@
+* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.menu-bar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.menu-bar .nav-link {
+  font-size: 16px;
+  color: #fff !important;
+  margin: 2px;
+}
+
+.menu-bar .navbar-brand img {
+  width: 200px;
+  height: 60px;
+}
+
+.menu-bar .navbar-toggler {
+  padding-right: 0;
+  outline: none;
+  border: none;
+}
+
+.banner {
+  height: 80vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(128, 74, 74, 0.5)), to(rgba(0, 0, 0, 0.5))), url(./image/bcakimage.jpg);
+  background-image: linear-gradient(rgba(128, 74, 74, 0.5), rgba(0, 0, 0, 0.5)), url(./image/bcakimage.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.banner h1 {
+  padding-top: 170px;
+  font-size: 50px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search-job {
+  padding: 30px 0;
+  margin: -50px 6% 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.search-job .form-control {
+  max-width: 250px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 10px 5px;
+  border-radius: 0;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+}
+
+.search-job .btn-primary {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 5px;
+  padding: 7px 40px;
+}
+
+/*---------------------------Top Recruiters   ---------------------*/
+.recruiters {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.recruiters h3 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.recruiters h3:before {
+  content: "";
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: -10;
+  margin-top: -15px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 90px;
+}
+
+.recruiters img {
+  min-width: 60px;
+  height: 55px;
+  padding: 6px 12px;
+}
+
+.jobs .company-details {
+  -webkit-box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+          box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.jobs .company-details .job-update {
+  background: #fff;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.jobs .company-details .job-update small {
+  padding: 2px 5px;
+  background: #666060;
+  color: #fff;
+}
+
+.jobs .company-details .job-update p {
+  margin-bottom: 0 !important;
+}
+
+.jobs .company-details .job-update a {
+  text-decoration: none !important;
+  color: #007bff;
+  float: right;
+}
+
+.jobs .company-details .job-update .fas {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #6db9ef;
+}
+
+.jobs .company-details .apply-btn {
+  height: 40px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.jobs .company-details .apply-btn .btn-primary {
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 0 20px;
+  float: right;
+  border-radius: 1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #007bff;
+}
+
+.jobs .page-link li {
+  height: 25px;
+  widows: 25px;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 30px;
+}
+
+.jobs .page-link li:hover,
+.jobs .page-link .active {
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+.jobs .page-link .left-arrow {
+  color: #999;
+}
+
+.jobs .page-link .right-arrow {
+  color: #29b929;
+}
+
+/*--------------------Site Stats----------------------*/
+.site-stats {
+  padding: 100px 0;
+  -webkit-box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+          box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.site-stats h3:before {
+  content: "";
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: -10;
+  margin-top: -15px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 90px;
+}
+
+.site-stats .main-feature {
+  min-width: 100%;
+  margin: 40px auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.site-stats .main-feature .cell-part {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
+  -ms-flex-preferred-size: 23%;
+      flex-basis: 23%;
+  height: auto;
+  text-align: center;
+  -webkit-box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+          box-shadow: 0 2px 70px 0 rgba(78, 105, 214, 0.18);
+}
+
+.site-stats .main-feature .cell-part small {
+  margin-left: 10px;
+}
+
+.site-stats .main-feature .cell-part .fas {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .main-feature {
+    min-width: 100%;
+    margin: 40px auto 0 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .main-feature .cell-part {
+    background-color: red;
+  }
+}
+
+/*-----------------------------------------App-Banner-----------------*/
+.app-banner {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6db9ef), to(#7ce08a));
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  margin-top: -20px;
+}
+
+.app-banner h1 {
+  color: #fff;
+  padding-top: 35px;
+}
+
+.app-banner img {
+  height: 160px;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*-----------------------------------------Footer-------------------*/
+.footer img {
+  margin: 20px;
+  height: 80px;
+  width: 200px;
+}
+
+.footer .social-icon h6 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer .social-icon .fab {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #007bff;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+  padding-right: 10px;
+}
+
+.footer .social-icon .fab:hover {
+  color: red;
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+
+.footer .developers {
+  background: #000;
+}
+
+.footer .developers h6 {
+  color: #fff;
+}
+
+.footer .developers span {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
